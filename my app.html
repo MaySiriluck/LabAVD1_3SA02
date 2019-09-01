@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <section>        
+            <center>
+              <img src="pic.png" alt="Caculated" width='650px' hight='380px'>
+            </center>
+  </section>
+ </head>
+<body bgcolor="beige">
+  <div id ="dtable">
+    <article>
+        <center>
+        <h1 style="background-color: #66CDAA">Basic Calculator</h1>
+        </center>
+    </article>
+  </div>
+  <div id = "allcen">  
+        <center>   
+            <div class="art2">
+                    <input type="text" id="num1" onfocus="this.value=''"> <span id="add">operand</span>
+                    <input type="text" id="num2" onfocus="this.value=''"> <br>
+                    <button class="bt3" onclick="opeRand('Sum')">Sum</button>
+                    <button class="bt4" onclick="opeRand('Min')">Min</button>
+                    <button class="bt5" onclick="opeRand('Mul')">Mul</button>
+                    <button class="bt6" onclick="opeRand('Div')">Div</button>
+            </div>
+        </center>
+  </section>
+  <script>
+      require('./renderer.js')
+  </script>
+  <h3 style="text-align: left"><a href = "./index.html"><=Back to Home</a></h3>
+  <h5 style="text-align: end">@NAME:Miss.Siriluck Raksawat<br>@ID:5935512019</h5>    
+</div>
+</body>
+</html>
