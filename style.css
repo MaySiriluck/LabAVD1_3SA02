@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.header {
+  text-align: center; 
+  font-size: 25px;
+}
+h1{
+	padding: 0 25px;
+	background-color:#00FA9A;
+}
+h3{
+  padding: 0 25px;
+  margin: 10px;
+}
+h4{
+	padding: 0 25px;
+	background:#66CDAA;
+}
+h5{
+  padding: 0;
+  margin: 20px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 70%; 
+}
+.bt3,.bt4,.bt5,.bt6{
+  padding: 0 15px;
+  margin: 10;
+  background-color: peachpuff;
+}
+.art2{
+  padding: 0 100px;
+  margin: 50;
+}
